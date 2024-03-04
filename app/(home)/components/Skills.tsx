@@ -54,26 +54,26 @@ export default function Skills() {
       icon:SiNodedotjs 
 
     },
-    {
-      text:"HTML",
-      icon:SiHtml5 
+    // {
+    //   text:"HTML",
+    //   icon:SiHtml5 
 
-    },
+    // },
     {
       text:"Python",
       icon:SiPython 
 
     },
-    {
-      text:"Js",
-      icon:SiJavascript 
-
-    },
     // {
-    //   text:"Mongo DB",
-    //   icon:SiMongodb 
+    //   text:"Js",
+    //   icon:SiJavascript 
 
     // },
+    {
+      text:"Mongo DB",
+      icon:SiMongodb 
+
+    },
  
   ]
   return (
