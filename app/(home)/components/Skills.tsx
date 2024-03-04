@@ -44,16 +44,16 @@ export default function Skills() {
       icon:SiRedux 
 
     },
-    // {
-    //   text:"Express",
-    //   icon:SiExpress 
+    {
+      text:"Express",
+      icon:SiExpress 
 
-    // },
-    // {
-    //   text:"Node js",
-    //   icon:SiNodedotjs 
+    },
+    {
+      text:"Node js",
+      icon:SiNodedotjs 
 
-    // },
+    },
     {
       text:"HTML",
       icon:SiHtml5 
