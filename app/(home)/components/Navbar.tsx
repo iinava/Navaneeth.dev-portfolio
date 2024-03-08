@@ -5,6 +5,7 @@ import React from "react";
 import { SiGithub } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiTwitter } from "react-icons/si";
+import { FaRegFilePdf } from "react-icons/fa6";
 
 export default function Navbar({className}:{className?:string}) {
   const socials = [
@@ -18,11 +19,11 @@ export default function Navbar({className}:{className?:string}) {
       label: "Github",
       icon: <SiGithub />,
     },
-    // {
-    //   link: "https://twitter.com/Neil21e",
-    //   label: "Twitter",
-    //   icon: <SiTwitter />,
-    // },
+    {
+      link: "https://drive.google.com/file/d/1OB5pCA25a9pdqY0CxnOUm6Je3ncOm8ul/view?usp=sharing",
+      label: "Portfolio",
+      icon:<FaRegFilePdf />,
+    },
   ];
 
   return (
