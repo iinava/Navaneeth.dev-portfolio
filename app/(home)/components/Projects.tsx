@@ -4,12 +4,21 @@ import { DiDjango } from "react-icons/di";
 import { GrMysql } from "react-icons/gr";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { BiLogoMongodb } from "react-icons/bi";
+import { TbBrandPrisma } from "react-icons/tb";
 import Title from "./Title";
 import { Link } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "./ui/direction-aware-hover";
 export default function Projects() {
   const projects = [
+    {
+      title: "Realesto- Real Estate app with Real time chat",
+      tech: [FaReact, SiExpress,TbBrandPrisma, FaNodeJs],
+      link: "https://github.com/iinava/RealEsto",
+      cover: "/Realesto.png",
+      background: "bg-lime-500",
+    },
     {
       title: "Grow-Crowdfunding platform",
       tech: [FaReact, DiDjango, GrMysql],
